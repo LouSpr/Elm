@@ -17,7 +17,7 @@ from requests import RequestException
 host = 'https://acs.m.goofish.com'
 
 ck = ''
-elm_host = open('xsign.conf', 'r', encoding='utf-8').read().split("\n")[0]
+elm_host = open('xsign.sh', 'r', encoding='utf-8').read().split("\n")[0]
 
 
 import json
