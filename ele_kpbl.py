@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-cron: 40 1-23/3 * * *
+cron: 45 2,14 * * *
 new Env('饿了么卡皮巴拉小餐车');
 """
 import json

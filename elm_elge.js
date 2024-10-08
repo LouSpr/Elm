@@ -1,7 +1,7 @@
 /**
  * @kolikow
  * 变量：elmck: 必填，账号cookie
- * cron: 5 5 * * *
+ * cron: 15 2,14 * * *
  */
 
 const $ = new Env('饿了么饿了个饿');

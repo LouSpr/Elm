@@ -1,5 +1,5 @@
 """
-cron: 45 6 * * *
+cron: 45 0,12 * * *
 new Env('饿了么吃助力');
 """
 import hashlib

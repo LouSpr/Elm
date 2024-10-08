@@ -3,15 +3,13 @@
  * author:是豪豪呀
  * 可环境变量指定SIGN地址:elmSignUrl
  * export elmSignUrl=''
- * cron: 12 0,8,20 * * *
+ * cron: 20 0,8,20 * * *
  * 依赖  axios
  */
 
 const $ = new Env('饿了么夺宝');
 const axios = require('axios');
-const {
-  ipAddress
-} = require("./common.js");
+const ipAddress = require('fs').readFileSync('xsign.sh', 'utf8')
 const elmSignUrl = process.env.elmSignUrl ? process.env.elmSignUrl : ipAddress;
 let cookiesArr = []
 

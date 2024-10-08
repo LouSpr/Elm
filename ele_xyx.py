@@ -1,5 +1,5 @@
 """
-cron: 35 6 * * *
+cron: 15 7,19 * * *
 new Env('饿了么小游戏');
 """
 import hashlib

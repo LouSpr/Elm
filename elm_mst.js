@@ -1,7 +1,7 @@
 /**
  * @kolikow
  * 变量：elmck: 必填，账号cookie
- * cron: 55 5 * * *
+ * cron: 15 5,17 * * *
  */
 
 const $ = new Env('饿了么美食摊');
