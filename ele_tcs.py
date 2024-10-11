@@ -17,7 +17,7 @@ import string
 host = 'https://acs.m.goofish.com'
 
 ck = ''
-elm_host = open('xsign.sh', 'r', encoding='utf-8').read().split("\n")[0]
+elm_host = open('xsign.conf', 'r', encoding='utf-8').read().split("\n")[0]
 
 def generate_random_string(length=50):
     return ''.join(random.choices(string.ascii_letters + string.digits, k=length))

@@ -14,7 +14,7 @@ import datetime
 host = 'https://acs.m.goofish.com'
 
 zlck = os.environ.get('elmck', "")
-elm_host = open('xsign.sh', 'r', encoding='utf-8').read().split("\n")[0]
+elm_host = open('xsign.conf', 'r', encoding='utf-8').read().split("\n")[0]
 ck = ""
 
 

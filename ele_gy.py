@@ -13,7 +13,7 @@ from datetime import datetime, date
 nczlck = os.environ.get('elmck')
 
 ck = ''
-elm_host = open('xsign.sh', 'r', encoding='utf-8').read().split("\n")[0]
+elm_host = open('xsign.conf', 'r', encoding='utf-8').read().split("\n")[0]
 
 def tq(txt):
     try:

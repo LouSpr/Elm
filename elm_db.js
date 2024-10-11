@@ -9,7 +9,7 @@
 
 const $ = new Env('饿了么夺宝');
 const axios = require('axios');
-const ipAddress = require('fs').readFileSync('xsign.sh', 'utf8')
+const ipAddress = require('fs').readFileSync('xsign.conf', 'utf8')
 const elmSignUrl = process.env.elmSignUrl ? process.env.elmSignUrl : ipAddress;
 let cookiesArr = []
 

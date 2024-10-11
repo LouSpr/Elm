@@ -13,7 +13,7 @@ from urllib.parse import quote, urlencode
 host = 'https://acs.m.goofish.com'
 
 ck = ''
-elm_host = open('xsign.sh', 'r', encoding='utf-8').read().split("\n")[0]
+elm_host = open('xsign.conf', 'r', encoding='utf-8').read().split("\n")[0]
 
 def hbh5tk(tk_cookie, enc_cookie, cookie_str):
     """
