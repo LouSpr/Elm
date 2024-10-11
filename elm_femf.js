@@ -1,6 +1,6 @@
 /**
  * 变量：elmck: 必填，账号cookie
- * cron: 15 6,18 * * *
+ * cron: 15 4 * * *
  */
 
 const $ = new Env('饿了么福尔魔方');

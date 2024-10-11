@@ -3,7 +3,7 @@
  * author:是豪豪呀
  * 可环境变量指定SIGN地址:elmSignUrl
  * export elmSignUrl=''
- * cron: 20 0,8,20 * * *
+ * cron: 50 6 * * *
  * 依赖  axios
  */
 

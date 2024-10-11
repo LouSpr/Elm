@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-cron: 15 0,12 * * *
+cron: 15 0 * * *
 new Env('饿了么吃货豆');
 """
 import hashlib

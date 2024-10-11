@@ -1,5 +1,5 @@
 """
-cron: 45 3,15 * * *
+cron: 20 7 * * *
 new Env('饿了么光轮蓝骑士');
 """
 import hashlib

@@ -1,7 +1,7 @@
 /**
  * @kolikow
  * 变量：elmck: 必填，账号cookie
- * cron: 45 6,18 * * *
+ * cron: 45 4 * * *
  * 依赖：moment md5
  */
 

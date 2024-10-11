@@ -1,5 +1,5 @@
 """
-cron: 45 7,19 * * *
+cron: 20 6 * * *
 new Env('饿了么果园');
 """
 import json

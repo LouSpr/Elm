@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-cron: 45 1,13 * * *
+cron: 35 6 * * *
 new Env('饿了么乐园币');
 """
 import hashlib
