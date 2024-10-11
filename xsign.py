@@ -13,9 +13,9 @@ files = os.listdir(path) #获取目标文件夹中的所有文件名
 
 for file_name in files:
     if file_name.endswith('.json'):
-    file_path = os.path.join(path, file_name)
-    os.remove(file_path)
-	print('删除json文件成功')
+        file_path = os.path.join(path, file_name)
+        os.remove(file_path)
+print('删除json文件成功')
 
 if not os.path.exists(xsign):
     file = open(os.path.join(path, xsign), 'w') 
