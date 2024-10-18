@@ -418,8 +418,8 @@ class LYB:
                     total_progress += progress
                     ygz = rede['data']['data']['roleInfoDTO']['rolePropertyInfoDtoList'][0]['totalPropertyCnt']
                     print(f"[{self.name}] ✅第{total_watering}次浇水成功,获得进度--[{progress}]")
-                    if float(progress) < 0.02:
-                        print(f"[{self.name}] ✅进度小于0.04，停止浇水")
+                    if float(progress) < 0.01:
+                        print(f"[{self.name}] ✅进度小于0.01，停止浇水")
                         break
                     if 'processRewardShow' in rede['data']['data']['roleInfoDTO']['processRewardDTO'] and 'openFlag' in \
                             rede['data']['data']['roleInfoDTO']['processRewardDTO']['processRewardShow']:
